@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sobre Nós - Universo Literário</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #2c3e50;
+      color: white;
+      padding: 1rem 2rem;
+      flex-wrap: wrap;
+    }
+
+    .navbar .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .navbar .center-section {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      font-size: 1rem;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .search-bar input {
+      padding: 0.4rem 1rem;
+      border: none;
+      border-radius: 20px;
+      outline: none;
+      font-size: 0.9rem;
+    }
+
+    .icons {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .icons i {
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+
+    .buy-button {
+      background-color: #e67e22;
+      border: none;
+      color: white;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .sobre-container {
+      max-width: 960px;
+      margin: 3rem auto;
+      padding: 3rem;
+      background: linear-gradient(135deg, #ffffff, #f3f3f3);
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    }
+
+    .sobre-container h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      color: #2c3e50;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .sobre-container p {
+      font-size: 1.2rem;
+      line-height: 1.8;
+      color: #444;
+      text-align: justify;
+      margin-bottom: 1.5rem;
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    footer img {
+      width: 80px;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo"><img src="logotipo.png" alt=""></div>
+    <div class="center-section">
+      <nav class="nav-links">
+        <a href="index.html">Início</a>
+        <a href="destaques.html">Destaques</a>
+        <a href="sobre.html">Sobre nós</a>
+      </nav>
+      <div class="search-bar">
+        <input type="text" placeholder="Buscar livros...">
+      </div>
+    </div>
+    <div class="icons">
+      <i class="fas fa-shopping-cart"></i>
+      <i class="fas fa-user"></i>
+      <button class="buy-button">Comprar</button>
+    </div>
+  </header>
+
+  <!-- Conteúdo Sobre Nós -->
+  <section class="sobre-container">
+    <h2>Sobre o Universo Literário</h2>
+    <p>
+      Fundada com o propósito de inspirar mentes e conectar leitores aos mundos mais fascinantes da literatura,
+      a <strong>Universo Literário</strong> é muito mais do que uma livraria: é um espaço onde histórias ganham vida.
+    </p>
+    <p>
+      Desde os clássicos da literatura mundial até as novidades mais aguardadas do mercado editorial, nosso catálogo foi cuidadosamente
+      selecionado para oferecer variedade, qualidade e experiências inesquecíveis para leitores de todas as idades. A cada prateleira, um novo
+      universo a ser explorado.
+    </p>
+    <p>
+      Acreditamos que o hábito da leitura é uma das formas mais poderosas de transformação pessoal e social. Por isso, incentivamos a literatura
+      nacional, promovemos autores independentes e oferecemos eventos culturais, como clubes de leitura, lançamentos e oficinas literárias.
+    </p>
+    <p>
+      Localizada no coração de São Paulo, a Universo Literário é um ponto de encontro para apaixonados por livros, educadores, estudantes e
+      sonhadores. Em nosso ambiente acolhedor, você encontrará não apenas livros, mas uma comunidade dedicada à construção do conhecimento e
+      da imaginação.
+    </p>
+    <p>
+      Venha fazer parte deste universo encantado. Aqui, cada leitura é uma jornada, e cada jornada, um novo começo.
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Endereço: Rua das Letras, 123 - São Paulo, SP</p>
+    <p>Telefone: (11) 91234-5678</p>
+    <img src="https://via.placeholder.com/80x80?text=Logo" alt="Logo Universo Literário">
+  </footer>
+
+</body>
+</html>
